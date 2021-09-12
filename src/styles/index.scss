@@ -1,0 +1,105 @@
+@import './vant-fix.scss';
+
+$zsu-green: #005825;
+$main-text: #303133;
+$default-text: #606266;
+$other-text: #909399;
+
+$success: #67C23A;
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.app-container {
+  width: 100%;
+}
+
+.show-full {
+  width: 100% !important;
+  height: 100vh !important;
+}
+
+.show70 {
+  width: 70% !important;
+  height: 100vh !important;
+}
+
+.margin20 {
+  margin: 20px !important;
+}
+
+.height40 {
+  height: 40px !important;
+  line-height: 40px !important;
+}
+
+.header-lock {
+  position: fixed !important;
+  left: 0px !important;
+  top: 0px !important;
+  width: 100% !important;
+}
+
+.main-box {
+  // margin-top: 46px;
+  // margin-bottom: 50px;
+  padding-top: 46px;
+  padding-bottom: 50px;
+}
+
+.zsu-nav-bar {
+  background: $zsu-green !important;
+  color: #fff !important;
+  .van-nav-bar__text {
+    color: #fff !important;
+  }
+  .van-icon {
+    color: #fff !important;
+  }
+}
+
+// 折叠面板
+.datas {
+  .title {
+    font-size: 16px;
+  }
+  .status-button {
+    float: right;
+    margin-left: 10px;
+  }
+  .info {
+    margin-top: 5px;
+    p {
+      color: $default-text;
+    }
+    .info-double-box {
+      color: $default-text;
+    }
+  }
+  .detailed-box {
+    p {
+      font-size: 14px;
+      color: $default-text;
+    }
+  }
+}
+
+// 标题键
+.title-key {
+  // color: $success;
+  font-weight: bolder;
+}
+
+// 分页
+.van-pagination__item {
+  color: $zsu-green;
+}
+
+.van-pagination__item--active {
+  background-color: $success;
+}
+.van-pagination__next:active, .van-pagination__prev:active {
+  background-color: $success;
+}

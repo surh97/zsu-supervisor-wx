@@ -1,0 +1,20 @@
+{
+  "name": "中山大学督导评教系统",
+  "short_name": "中山大学督导评教系统",
+  "icons": [
+    {
+      "src": "/images/zsu-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/images/zsu-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#FFFFFF",
+  "theme_color": "#005825"
+}
